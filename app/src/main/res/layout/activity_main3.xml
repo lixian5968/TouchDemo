@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--<FrameLayout-->
+    <!--android:id="@+id/main_header"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="275dp">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/main_header_icon"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:scaleType="centerCrop"-->
+    <!--android:src="@drawable/header2" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/main_header_mask"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:scaleType="fitXY"-->
+    <!--android:src="@drawable/bk_vediomask_bottom" />-->
+    <!--</FrameLayout>-->
+
+    <!--android:layout_marginTop="200dp"-->
+    <com.zongbutech.lxdoublepulltwo.Demo3.LxPullRelativeLayout
+        android:id="@+id/main_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/main_haibao"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/haibao2" />
+
+    </com.zongbutech.lxdoublepulltwo.Demo3.LxPullRelativeLayout>
+</RelativeLayout>

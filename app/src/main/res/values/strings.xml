@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">双滑动LX</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_all">双滑动</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_main4">Main4Activity</string>
+</resources>

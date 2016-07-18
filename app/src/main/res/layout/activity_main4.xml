@@ -1,0 +1,151 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.zongbutech.lxdoublepulltwo.Demo1.LxFragment
+            android:id="@+id/main_header"
+            android:layout_width="match_parent"
+            android:layout_height="275dp">
+
+            <ImageView
+                android:id="@+id/main_header_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/header2" />
+
+            <ImageView
+                android:id="@+id/main_header_mask"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/bk_vediomask_bottom" />
+        </com.zongbutech.lxdoublepulltwo.Demo1.LxFragment>
+
+
+        <com.zongbutech.lxdoublepulltwo.Demo1.LxPullRelativeLayout
+            android:id="@+id/main_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp">
+
+            <RelativeLayout
+                android:id="@+id/main_content"
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:layout_marginTop="75dp"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="120dp"
+                    android:text="This is UP"
+                    android:textColor="#bb000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="This is CENTER"
+                    android:textColor="#bb000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="150dp"
+                    android:text="This is BOTTOM"
+                    android:textColor="#bb000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/main_haibao"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/haibao2" />
+
+            <LinearLayout
+                android:id="@+id/main_info"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_toRightOf="@id/main_haibao"
+                android:orientation="vertical"
+                android:paddingLeft="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="14dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/rating_bigger_select" />
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="14dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/rating_bigger_select" />
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="14dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/rating_bigger_select" />
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="14dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/rating_bigger_select" />
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="14dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/rating_bigger_select" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="9.9"
+                        android:textColor="#ff5021"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="星球大战之原力觉醒"
+                    android:textColor="@android:color/white"
+                    android:textSize="21sp" />
+            </LinearLayout>
+        </com.zongbutech.lxdoublepulltwo.Demo1.LxPullRelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>
